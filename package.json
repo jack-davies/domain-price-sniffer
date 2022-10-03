@@ -1,0 +1,15 @@
+{
+  "name": "domain-price-sniffer",
+  "main": "dist/src/sniff.js",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  }
+}
